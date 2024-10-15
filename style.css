@@ -53,6 +53,7 @@ font-size:96px ;
 
 .work{
     display: flex;
+    flex-wrap: wrap;
 justify-content: center;
     gap: 40px;
     
@@ -100,9 +101,12 @@ transition: 0.2s ease-in-out;
 
 .contact{
     background-color: #515603;
+    width: 50%;
 }
 
 .about{
+    width: 50%;
+    overflow: auto;
     background-color: #722300;
 }
 
@@ -177,4 +181,9 @@ justify-content: center;
 
 }
 
-
+.h3{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300px;
+}
